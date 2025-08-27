@@ -78,24 +78,24 @@ A **C++ project** implementing a complete Sudoku backend system with three main 
    cd sudoku_solver_checker_generator
    make
    ./sudoku -c
-   
-   Reads a puzzle from input (stdin or file).
-   Checks if the puzzle is correct and prints the sudoku
+       
+       Reads a puzzle from input (stdin or file).
+       Checks if the puzzle is correct and prints the sudoku
    
    ./sudoku -g <N> -u
    
-   Generates a Sudoku puzzle with N prefilled elements.
+       Generates a Sudoku puzzle with N prefilled elements.
    
    -g specifies generator mode and -u ensures the puzzle has a unique solution.
    
    ./sudoku
-       
-   Reads a puzzle from input and prints it.
-    
-   Solves the puzzle using backtracking.
-    
-   Checks if the solution is valid and prints it.
-    
-   Determines if the puzzle has a unique solution, multiple solutions, or no solution.
+           
+       Reads a puzzle from input and prints it.
+        
+       Solves the puzzle using backtracking.
+        
+       Checks if the solution is valid and prints it.
+        
+       Determines if the puzzle has a unique solution, multiple solutions, or no solution.
 
 
