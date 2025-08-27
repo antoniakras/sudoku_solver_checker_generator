@@ -71,8 +71,9 @@ A **C++ project** implementing a complete Sudoku backend system with three main 
 
 ## 🛠️ Setup & Run
 
-1. Clone the repository:
+1. Clone the repository and run with various parameters:
    ```bash
+   
    git clone https://github.com/antoniakras/sudoku_solver_checker_generator.git
    cd sudoku_solver_checker_generator
    make
@@ -88,16 +89,13 @@ A **C++ project** implementing a complete Sudoku backend system with three main 
    -g specifies generator mode and -u ensures the puzzle has a unique solution.
    
    ./sudoku
-    Runs without parameters.
+       
+   Reads a puzzle from input and prints it.
     
-    Reads a puzzle from input.
+   Solves the puzzle using backtracking.
     
-    Prints the puzzle.
+   Checks if the solution is valid and prints it.
     
-    Solves the puzzle using backtracking.
-    
-    Checks if the solution is valid and prints it.
-    
-     Determines if the puzzle has a unique solution, multiple solutions, or no solution.
+   Determines if the puzzle has a unique solution, multiple solutions, or no solution.
 
 
